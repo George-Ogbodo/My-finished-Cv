@@ -1,0 +1,25 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	font-family: cursive;
+}
+body{
+	background-color: #5d8aa8;
+	background-image: url(Capture2.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+h3{
+	text-decoration: underline;
+}
+.ff{
+	display: block;
+	background-color: white;
+	cursor: pointer;
+}
+.ff:hover{
+	background-color: red;
+	transition: 5s;
+}
+
